@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: aquamarine;
+}
+
+nav {
+    background-color: blue;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+nav ul li a.active,a:hover {
+    background: red;
+    transition: .4s;
+}
+
+.container {
+    width: 1350px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.container_main {
+    margin: 60px 0;
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+.colour_containers {
+
+}
+
+.colour_container {
+    display: inline-block;
+    vertical-align: top;
+    width: 254px;
+    text-align: center;
+}
+
+.colour_container-shift {
+    margin: 0 10px 0 0;
+}
+
+.colour {
+    width: 254px;
+    height: 150px;
+    background-color: chartreuse;
+    margin: 0 auto;
+}
+
+.colour_tools {
+    width: 100%;
+    float: left;
+    display: block;
+    margin: 10px 0;
+}
+
+h3.hex {
+    font-family: 'Montserrat', sans-serif;
+    margin-right: .5em;
+    font-size: 1.2em;
+    float: left;
+}
+
+.btn_container {
+    float: left;
+}
+
+.btn {
+    border-color: transparent;
+    transition: opacity 0.5s;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.lock {
+    background: transparent url(Icons/Lock_Locked.svg) no-repeat;
+}
+
+.arrow {
+    background: transparent url(Icons/Arrow.svg) no-repeat;
+}
+
+.info_text {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+table.slice_table {
+    margin: 0 auto;
+    width: 60%;
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+table tr td {
+    color: black;
+    height: 40px;
+    font-size: 20px;
+    background-color: white;
+    padding: 0;
+}
+
+#complementary_colour {
+    
+}

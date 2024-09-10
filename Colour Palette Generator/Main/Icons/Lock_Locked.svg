@@ -1,0 +1,78 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24">
+<defs>
+<g id="Lock1_0_Layer0_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 1.45 -0.55
+Q 1.45 -1.1 1.05 -1.5 0.6 -1.95 0 -1.95 -0.6 -1.95 -1.05 -1.5 -1.45 -1.1 -1.45 -0.55 -1.45 0.1 -1.05 0.5 -0.85 0.7 -0.6 0.8
+L -1.9 4.55 1.95 4.55 0.6 0.8
+Q 0.85 0.7 1.05 0.5 1.45 0.1 1.45 -0.55 Z"/>
+</g>
+
+<g id="Lock2_0_Layer0_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 1.45 -0.55
+Q 1.45 -1.1 1.05 -1.5 0.6 -1.95 0 -1.95 -0.6 -1.95 -1.05 -1.5 -1.45 -1.1 -1.45 -0.55 -1.45 0.1 -1.05 0.5 -0.85 0.7 -0.6 0.8
+L -1.9 4.55 1.95 4.55 0.6 0.8
+Q 0.85 0.7 1.05 0.5 1.45 0.1 1.45 -0.55 Z"/>
+</g>
+
+<path id="Lock1_0_Layer1_0_1_STROKES" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="3" fill="none" d="
+M 6.4 6.8
+L -6.35 6.8 -6.35 -4.15 -5.25 -5.95 -3.9 -5.95 -3.9 -9.2
+Q -3.9 -10.8 -2.75 -11.95 -1.6 -13.1 0 -13.1
+L 0.05 -13.1
+Q 1.65 -13.1 2.8 -11.95 3.95 -10.8 3.95 -9.2
+L 3.95 -5.95 5.3 -5.95 6.4 -4.15 6.4 6.8 Z
+M -3.9 -5.95
+L 3.95 -5.95"/>
+
+<path id="Lock2_0_Layer1_0_1_STROKES" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="3" fill="none" d="
+M -3.9 -9.2
+Q -3.9 -10.8 -2.75 -11.95 -1.6 -13.1 0.05 -13.1 1.65 -13.1 2.8 -11.95 3.95 -10.8 3.95 -9.2
+L 3.95 -5.95 5.3 -5.95 6.4 -4.15 6.4 6.8 -6.35 6.8 -6.35 -4.15 -5.25 -5.95 3.95 -5.95"/>
+
+<path id="Arrow_0_Layer0_0_1_STROKES" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="3" fill="none" d="
+M -2.8 -9.85
+L 2.9 -9.85
+Q 3.75 -9.85 3.75 -9
+L 3.75 1.5
+Q 3.75 2 4.25 2
+L 6.6 2
+Q 7.4 2 6.75 2.7
+L 0.65 9.65
+Q 0.05 10.15 -0.5 9.6
+L -6.7 2.95
+Q -7.35 2.25 -6.55 2.2
+L -4.05 2.2
+Q -3.65 2.2 -3.65 1.7
+L -3.65 -9
+Q -3.65 -9.85 -2.8 -9.85 Z"/>
+</defs>
+
+<g transform="matrix( 1.14178466796875, 0, 0, 1.14178466796875, 12,15.5) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Lock1_0_Layer1_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Lock1_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1.14178466796875, 0, 0, 1.14178466796875, 58.5,15.55) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Lock2_0_Layer1_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Lock2_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1.144622802734375, 0, 0, 1.144622802734375, -30.1,11.85) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Arrow_0_Layer0_0_1_STROKES"/>
+</g>
+</g>
+</svg>

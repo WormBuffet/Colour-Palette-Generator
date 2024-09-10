@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Colour Palette Generator</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="genScript.js"></script>
+</head>
+<body>
+	<div style="display:block;">
+		<div id="colourpad1" style="width:250px; height:250px; background-color:#000; float:left; margin-right:2.5%;"></div>
+		<div id="colourpad2" style="width:250px; height:250px; background-color:#000; float:left; margin-right:2.5%;"></div>
+	</div>
+	
+	<div style="display:block; padding-top:2.5%; clear:left;">
+		<button onclick="setRandomColour()">Random Color</button>
+		<button onclick="displayColours()">Colour Codes</button>
+		<button onclick="displayComp()">Complementary Colour</button>
+		<button onclick="displayTriad()">Triadic Colours</button>
+		<button onclick="displayAnalog()">Analogous Colours</button>
+		<button onclick="displayTetradic()">Tetradic Colours</button>
+		<button onclick="displayAlt()">Alternate Shades</button>
+		
+		<input type="checkbox" id="square1" name="square1" value="col1">
+		<label for="square1"> Lock Square 1</label>
+		
+		<input type="checkbox" id="square2" name="square2" value="col2">
+		<label for="square2"> Lock Square 2</label>
+	</div>
+	
+	<div style="display:block; padding-top:2.5%; clear:left;">
+		<!-- Displays Colour Codes -->
+		<p id="tHEX"/>
+		<p id="tRGB"/>
+		<p id="tHSL"/>
+		
+		<!-- Display Complementary Colour -->
+		<div id="complementary" style="width:250px; height:250px; background-color:#000; display:block; float:left; margin-right:2.5%;"></div>
+		<p style="position:relative; clear:left;">Complementary</p>
+		<p id="para1" style="position:relative; clear:left;"/>
+		
+		<!-- Display Triads -->
+		<div id="triad0" style="width:250px; height:250px; background-color:#000; display:block; float:left; margin-right:2.5%;"></div>
+		<div id="triad1" style="width:250px; height:250px; background-color:#000; display:block; float:left; margin-right:2.5%;"></div>
+		<p style="position:relative; clear:left;">Triadic</p>
+		<p id="para2" style="position:relative; clear:left;"/>
+		
+		<!-- Display Analogous Colours -->
+		<div id="analog0" style="width:250px; height:250px; background-color:#000; display:block; float:left; margin-right:2.5%;"></div>
+		<div id="analog1" style="width:250px; height:250px; background-color:#000; display:block; float:left; margin-right:2.5%;"></div>
+		<p style="position:relative; clear:left;">Analogous</p>
+		<p id="para3" style="position:relative; clear:left;"/>
+		
+		<!-- Display Tetradic Colours -->
+		<div id="tet0" style="width:250px; height:250px; background-color:#000; display:block; float:left; margin-right:2.5%;"></div>
+		<div id="tet1" style="width:250px; height:250px; background-color:#000; display:block; float:left; margin-right:2.5%;"></div>
+		<div id="tet2" style="width:250px; height:250px; background-color:#000; display:block; float:left; margin-right:2.5%;"></div>
+		<p style="position:relative; clear:left;">Tetradic</p>
+		<p id="para4" style="position:relative; clear:left;"/>
+		
+		<!-- Display Alternate Shades -->
+		<div id="alt0" style="width:50px; height:250px; background-color:#000; display:block; float:left;"></div>
+		<div id="alt1" style="width:50px; height:250px; background-color:#000; display:block; float:left;"></div>
+		<div id="alt2" style="width:50px; height:250px; background-color:#000; display:block; float:left;"></div>
+		<div id="alt3" style="width:50px; height:250px; background-color:#000; display:block; float:left;"></div>
+		<div id="alt4" style="width:50px; height:250px; background-color:#000; display:block; float:left;"></div>
+		<div id="alt5" style="width:50px; height:250px; background-color:#000; display:block; float:left;"></div>
+		<div id="alt6" style="width:50px; height:250px; background-color:#000; display:block; float:left;"></div>
+		<div id="alt7" style="width:50px; height:250px; background-color:#000; display:block; float:left;"></div>
+		<div id="alt8" style="width:50px; height:250px; background-color:#000; display:block; float:left;"></div>
+		<div id="alt9" style="width:50px; height:250px; background-color:#000; display:block; float:left;"></div>
+		<div id="alt10" style="width:50px; height:250px; background-color:#000; display:block; float:left;"></div>
+		<div id="alt11" style="width:50px; height:250px; background-color:#000; display:block; float:left;"></div>
+		<div id="alt12" style="width:50px; height:250px; background-color:#000; display:block; float:left;"></div>
+		<div id="alt13" style="width:50px; height:250px; background-color:#000; display:block; float:left;"></div>
+		<div id="alt14" style="width:50px; height:250px; background-color:#000; display:block; float:left;"></div>
+		<div id="alt15" style="width:50px; height:250px; background-color:#000; display:block; float:left;"></div>
+		<div id="alt16" style="width:50px; height:250px; background-color:#000; display:block; float:left;"></div>
+		<div id="alt17" style="width:50px; height:250px; background-color:#000; display:block; float:left;"></div>
+		<p style="position:relative; clear:left;">Alternate Shades</p>
+		<p id="para5" style="position:relative; clear:left;"/>
+	</div>
+</body>
+</html>
